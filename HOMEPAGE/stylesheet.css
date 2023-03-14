@@ -1,0 +1,176 @@
+.header h1{
+    color:deeppink;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+.booking_list_header h2{
+    color:deeppink;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+.navbar{
+    background-color: orange;
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+#right{
+    float:right;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+    
+  }
+
+  
+.dropdown .drop_button{
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color:white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+   
+}
+.dropdown:hover .drop_button {
+    color: red;
+  }
+.dropdown:hover .drop-down-content{
+    display: block;
+  }
+  .dropdown .drop-down-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown .drop-down-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown .drop-down-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  #booking_image h2{
+    color:yellowgreen;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+  }
+  #booking_image {
+    
+    box-sizing: border-box;
+   
+  }
+  
+  #booking_image .row {
+    display:flex;
+    align-items: baseline;
+    gap: 1%;
+   
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  #booking_image .column {
+    flex: 33.33%;
+    padding: 5px;
+    border: 1px solid black;
+  } 
+  
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration:none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red
+}
+
+
+
+
+
+
+  #heading {
+    color:deeppink;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size:larger;
+
+}
+#booking_image_heading{
+    color:blueviolet;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size:larger;
+   
+}
+ #background{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-weight:500;
+    background-image: url('asserts/icon/paragrapgh-backgroundimage.jpg');
+
+}
+
+
+.about header p{
+    color:deeppink;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size:larger;
+
+}
+.contact-us header p{
+    color:deeppink;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size:larger;
+
+}
+.contact-us p{
+    text-align: center;
+    
+}
+.booking_category{
+    display: flex;
+  justify-content: center;
+  background-color: white;
+  
+}
+
+.booking_category > div  {
+    background-color: royalblue;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;   
+}
+.booking_category > div a{
+  text-decoration: none;
+  color:burlywood;
+}
+
